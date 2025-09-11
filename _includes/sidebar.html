@@ -1,6 +1,7 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
+      <img src="{{ site.baseurl }}/assets/profile_square.jpg" alt="Avatar" class="centeravatar">
       <h1>
         <a href="{{ site.baseurl }}">
           {{ site.title }}
@@ -9,8 +10,20 @@
       <p class="lead">{{ site.description }}</p>
     </div>
 
+    <div class="social-icons">
+      <div class="social-icons-right">
+        <div class="right">
+          <a class="fa fa-envelope" href="mailto:cshin956@usc.edu"></a>
+          <a class="fa fa-linkedin" href="https://linkedin.com/in/christina-sy-shin"></a>
+          <a class="ai ai-google-scholar" href="https://scholar.google.com/citations?user=6VwIYFwAAAAJ&hl=en"></a>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -22,15 +35,18 @@
         {% if node.title != null %}
           {% if node.layout == "page" %}
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+            <!-- <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a> -->
           {% endif %}
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/assets/cv_christina_shin.pdf">CV</a>
+      <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a> -->
+      <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a> -->
+      <!-- <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <!-- <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p> -->
+    <p>Copyright &copy; {{ site.time | date: '%Y' }} Christina Shin</p>
   </div>
 </div>
