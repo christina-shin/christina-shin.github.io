@@ -18,7 +18,27 @@ Ultimately, my research envisions a future where 3D data is no longer treated me
     <a href="{{ pub.url }}">
         <strong><span style="color:#6a9fb5; font-size:1.2rem;">{{ pub.title }}</span></strong>
     </a>
-    <br>
+
+    <div class="media-pair">
+      <div class="media-item">
+        <div class="media-wrapper">
+          <img src="/assets/img_recap.png" alt="Description of image">
+        </div>
+        <!-- <p class="media-caption">Figure 1: Example image</p> -->
+      </div>
+
+      <div class="media-item">
+        <div class="media-wrapper">
+          <iframe src="https://www.youtube.com/embed/SSTa3OhqiO4?autoplay=1&mute=1" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+          </iframe>
+        </div>
+        <!-- <p class="media-caption">Figure 2: Example video</p> -->
+      </div>
+    </div>
+
     RECAP focuses on vehicle-to-cloud 3D sensor data streaming and explores how vehicles equipped with onboard 3D sensors can offload their data to the cloud while the cloud enables high-fidelity reconstruction of complex traffic scenes via multi-view fusion from inputs from multiple moving vehicles.
     <br>
     The core challenge in RECAP lies in accurately and quickly fusing large volumes of 3D data from
@@ -31,7 +51,27 @@ Ultimately, my research envisions a future where 3D data is no longer treated me
     <a href="{{ pub.url }}">
         <strong><span style="color:#6a9fb5; font-size:1.2rem;">{{ pub.title }}</span></strong>
     </a>
-    <br>
+
+    <div class="media-pair">
+      <div class="media-item">
+        <div class="media-wrapper">
+          <img src="/assets/img_cip.png" alt="Description of image">
+        </div>
+        <!-- <p class="media-caption">Figure 1: Example image</p> -->
+      </div>
+
+      <div class="media-item">
+        <div class="media-wrapper">
+          <iframe src="https://www.youtube.com/embed/-g0ohldId3I?autoplay=1&mute=1" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+          </iframe>
+        </div>
+        <!-- <p class="media-caption">Figure 2: Example video</p> -->
+      </div>
+    </div>
+
     CIP targets infrastructure-side sensing where 3D sensor-equipped roadside units stream 3D data to the cloud for large-scale traffic perception. It investigates how to extract semantic insights from traffic intersections in real-time.
     <br>
     To generate perception outputs fast enough for autonomous driving use cases, CIP must process large scale 3D scenes within 100 ms while achieving accuracy that match or exceed state-of-the-art vision algorithms. To meet this requirement, CIP introduces a novel alignment algorithm for accurate view fusion, along with efficient implementations of key perception tasks including dynamic object extraction, tracking, and motion estimation.
