@@ -1,0 +1,57 @@
+.sidebar .social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar .social-icons a {
+    font-size: 1.25rem;
+    margin-right: 10px;
+}
+
+.content.container {
+    max-width: 90%;
+    width: auto;
+  }
+  
+@media (min-width: 1200px) {
+    .content.container {
+        max-width: 80%;
+    }
+}
+
+.pubtitle{
+    color: #6a9fb5
+}
+
+.pubwraper{
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+
+.pubentry{
+    float: left;
+    width: 58.5%;
+    margin-left: 3%;
+}
+
+.pubimg{
+    float: left;
+    width: 38.5%;
+    max-width: 12rem;
+    min-height: 8rem;
+}
+
+.pubmedia{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 1rem;
+    margin-left: 0.5em;
+}
+
+.pubmediacontainer {
+  margin-top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}

@@ -1,0 +1,25 @@
+<div class="pubwraper">
+    {% if pub.img %}
+        <div class="pubimg">
+            <img class="center" src="{{ site.baseurl }}/assets/{{pub.img}}">
+        </div>
+    {% endif %}
+    <div class="spacer"></div>
+    <div class="pubentry">
+        <div>
+            <strong><span style="color:#6a9fb5;">{{ pub.title }}</span></strong>
+            <br>
+            {{ pub.author }}
+            <br>
+            <em>{{ pub.booktitle }}, {{ pub.year }}{% if pub.note %}, <span style="color:#ff0000;">{{ pub.note }}</span>{% endif %}</em>
+            <br>
+            {% if pub.url %}
+            <a href="{{ pub.url }}" target="_blank" role="button">[📄 Paper]</a>
+            {% endif%}
+            {% if pub.demo %}
+            <a href="{{ pub.demo }}" target="_blank" role="button">[🎥 Demo]</a>
+            {% endif%}
+        </div>
+    </div>
+</div>
+<br>
