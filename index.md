@@ -5,7 +5,7 @@ title: Home
 
 ## Bio Sketch
 
-I am a Ph.D. student in [Department of Computer Science](https://www.cs.usc.edu) at [University of Southern California](http://www.usc.edu), where I am advised by [Prof. Ramesh Govindan](https://govindan.usc.edu) in the [Networked Systems Lab (NSL)](https://nsl.usc.edu). My research interests include AR/VR systems, volumetric video streaming, autonomous & connected vehicles.
+I am a Ph.D. candidate in [Department of Computer Science](https://www.cs.usc.edu) at [University of Southern California](http://www.usc.edu), where I am advised by [Prof. Ramesh Govindan](https://govindan.usc.edu) in the [Networked Systems Lab (NSL)](https://nsl.usc.edu). My research interests include AR/VR systems, volumetric video streaming, autonomous & connected vehicles.
 
 Before joining USC, I received my B.S. and M.S. degree in Computer Science and Engineering from [Ewha Womans University](https://www.ewha.ac.kr).
 
@@ -37,7 +37,6 @@ Before joining USC, I received my B.S. and M.S. degree in Computer Science and E
     {% endif %}
 {% endfor %}
 </div>
-<p>* Equal contribution</p>
 
 ### Journal
 <div>
@@ -49,6 +48,7 @@ Before joining USC, I received my B.S. and M.S. degree in Computer Science and E
     {% endif %}
 {% endfor %}
 </div>
+<p>* Equal contribution</p>
 
 <!-- ### Conference
 
@@ -87,4 +87,4 @@ So-Yeon Park, **Christina Suyong Shin**, Dahee Jeong, and HyungJune Lee<br>
 ## Contact
 - Email: [cshin956@usc.edu](mailto:cshin956@usc.edu)<br>
 - LinkedIn: [https://www.linkedin.com/in/christina-sy-shin](https://www.linkedin.com/in/christina-sy-shin)<br>
-- Homepage: [https://christinashin.github.io/](https://christinashin.github.io/)
+- Homepage: [https://christina-shin.github.io/](https://christina-shin.github.io/)

@@ -55,3 +55,21 @@
   width: 100%;
   display: flex;
 }
+
+details {
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    border: 2px solid #6a9fb5;
+    border-radius: 6px;
+    background: #f9f9f9;
+}
+  
+details summary {
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+html {
+    overflow-y: scroll;
+}
