@@ -12,7 +12,7 @@ My research explores **how 3D data can be harnessed as a shared and networked re
 
 Ultimately, my research envisions a future where 3D data is no longer treated merely as a local sensing artifact, but **as a shared medium that enables collaborative perception, coordinated decision making, and immersive vehicular experiences**.
 
-<details>
+<details open>
   <summary>Reconstruction</summary>
     {% assign pub = site.data.pub | where: "ID", "recap" | first %}
     <a href="{{ pub.url }}">
@@ -45,7 +45,7 @@ Ultimately, my research envisions a future where 3D data is no longer treated me
     dynamic, sparsely overlapping views across space and time. Building upon prior work on 3D view fusion, RECAP introduces techniques that minimize reconstruction error and computational cost in these highly asynchronous observation scenarios.
 </details>
 
-<details>
+<details open>
   <summary>Interpretation</summary>
     {% assign pub = site.data.pub | where: "ID", "cip" | first %}
     <a href="{{ pub.url }}">
@@ -77,7 +77,7 @@ Ultimately, my research envisions a future where 3D data is no longer treated me
     To generate perception outputs fast enough for autonomous driving use cases, CIP must process large scale 3D scenes within 100 ms while achieving accuracy that match or exceed state-of-the-art vision algorithms. To meet this requirement, CIP introduces a novel alignment algorithm for accurate view fusion, along with efficient implementations of key perception tasks including dynamic object extraction, tracking, and motion estimation.
 </details>
 
-<details>
+<details open>
   <summary>Delivery</summary>
     <!-- {% assign pub = site.data.pub | where: "ID", "mars" | first %}
     <a href="{{ pub.url }}">
