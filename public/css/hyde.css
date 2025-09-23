@@ -59,14 +59,16 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
+
 @media (min-width: 48em) {
   .sidebar {
-    position: fixed;
-    top: 0;
+    /* position: fixed; */
+    /* top: 0;
     left: 0;
     bottom: 0;
+    height: 100%; */
     width: 18rem;
-    text-align: left;
+    text-align: center;
   }
 }
 
@@ -107,7 +109,7 @@ a.sidebar-nav-item:focus {
  * contents to the bottom of the sidebar in tablets and up.
  */
 
-@media (min-width: 48em) {
+@media (min-width: 48em){
   .sidebar-sticky {
     /* position: absolute; */
     top:    3rem;
@@ -132,14 +134,16 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .content {
     max-width: 38rem;
-    margin-left: 20rem;
+    /* margin-left: 20rem; */
+    margin-left: 2rem;
     margin-right: 2rem;
   }
 }
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
+    /* margin-left: 22rem; */
+    margin-left: 4rem;
     margin-right: 4rem;
   }
 }

@@ -118,3 +118,13 @@ html {
     color: #555;
     margin-top: 0.3em;
 }
+
+.layout {
+}
+@media (min-width: 48em) and (min-height: 36em){
+  .layout {
+    display: flex;
+    /* align-items: stretch; */
+    min-height: 100vh;
+  }
+}
