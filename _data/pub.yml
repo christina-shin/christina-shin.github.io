@@ -1,9 +1,9 @@
 - ENTRYTYPE: inproceedings
   ID: livo
-  title: 'Toward Bandwidth-adaptive Fully-Immersive Volumetric Video Conferencing'
+  title: 'LiVo: Toward Bandwidth-adaptive Fully-Immersive Volumetric Video Conferencing'
   author: Rajrup Ghosh, Christina Suyong Shin, Lei Zhang, Muyang Ye, Tao Jin, Harsha V. Madhyastha, Ravi Netravali, Antonio Ortega, Sanjay Rao, Anthony Rowe, Ramesh Govindan
   booktitle: International Conference on emerging Networking EXperiments and Technologies (ACM CoNEXT)
-  year: '2025 (conditionally accepted)'
+  year: '2025'
   url: 
   img: img_livo.png
   demo: 
