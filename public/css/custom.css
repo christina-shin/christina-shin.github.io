@@ -20,7 +20,7 @@
 }
 
 .pubtitle{
-    color: #6a9fb5
+    color: #544C4A
 }
 
 .pubwraper{
@@ -59,7 +59,7 @@
 details {
     margin: 1em 0;
     padding: 0.5em 1em;
-    border: 2px solid #6a9fb5;
+    border: 2px solid #544C4A;
     border-radius: 6px;
     background: #f9f9f9;
 }

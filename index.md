@@ -85,6 +85,6 @@ So-Yeon Park, **Christina Suyong Shin**, Dahee Jeong, and HyungJune Lee<br>
 ---
 
 ## Contact
-- Email: [cshin956@usc.edu](mailto:cshin956@usc.edu)<br>
+- Email: [christina.suyong.shin@gmail.com](mailto:christina.suyong.shin@gmail.com)<br>
 - LinkedIn: [https://www.linkedin.com/in/christina-sy-shin](https://www.linkedin.com/in/christina-sy-shin)<br>
 - Homepage: [https://christina-shin.github.io/](https://christina-shin.github.io/)

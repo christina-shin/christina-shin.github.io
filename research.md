@@ -16,7 +16,7 @@ Ultimately, my research envisions a future where 3D data is no longer treated me
   <summary>Reconstruction</summary>
     {% assign pub = site.data.pub | where: "ID", "recap" | first %}
     <a href="{{ pub.url }}">
-        <strong><span style="color:#6a9fb5; font-size:1.2rem;">{{ pub.title }}</span></strong>
+        <strong><span style="color:#4281A4; font-size:1.2rem;">{{ pub.title }}</span></strong>
     </a>
 
     <div class="media-pair">
@@ -49,7 +49,7 @@ Ultimately, my research envisions a future where 3D data is no longer treated me
   <summary>Interpretation</summary>
     {% assign pub = site.data.pub | where: "ID", "cip" | first %}
     <a href="{{ pub.url }}">
-        <strong><span style="color:#6a9fb5; font-size:1.2rem;">{{ pub.title }}</span></strong>
+        <strong><span style="color:#4281A4; font-size:1.2rem;">{{ pub.title }}</span></strong>
     </a>
 
     <div class="media-pair">
@@ -83,7 +83,7 @@ Ultimately, my research envisions a future where 3D data is no longer treated me
     <a href="{{ pub.url }}">
         <strong><span style="color:#6a9fb5; font-size:1.2rem;">{{ pub.title }}</span></strong>
     </a> -->
-    <strong><span style="color:#6a9fb5; font-size:1.2rem;">3D Video Delivery to in-vehicle AR Display (under submission)</span></strong>
+    <strong><span style="color:#4281A4; font-size:1.2rem;">3D Video Delivery to in-vehicle AR Display (under submission)</span></strong>
     <br>
     While RECAP and CIP demonstrate how vehicles and infrastructure can collaboratively sense and interpret the traffic environment, this work extends this vision by exploring how 3D data can also serve human-facing applications like in-vehicle infotainment, navigation assistance, and spatially aware content delivery.
     <br>
