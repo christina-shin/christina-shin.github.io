@@ -5,10 +5,10 @@ title: Research
 
 With the growing deployment of vehicular communication technologies (e.g., V2X and 5G cellular), vehicles and infrastructure are becoming connected to each other and to the cloud. This connectivity enables a fundamental shift: rather than confining 3D data operations to individual vehicles or sensors, 3D data can now be *streamed, aggregated, interpreted, and delivered across the network*. This shift introduces new opportunities but also new challenges: not just how to sense or store 3D data, but how to operate and manipulate it effectively in a cloud-connected vehicular ecosystem.
 
-My research explores **how 3D data can be harnessed as a shared and networked resource in vehicular systems**:
+My research explores **how 3D data can be elevated to a shared and networked resource that is collaboratively sensed, processed, and delivered across vehicles, infrastructure, and cloud systems**:
 - **[Reconstruction]** How to collect and reconstruct 3D traffic scenes by aggregating data from distributed sensors
 - **[Interpretation]** How to extract semantic understanding from the reconstructed scene in the cloud in real-time
-- **[Delivery]** How to deliver rich 3D content from the cloud to vehicles to support immersive in-vehicle visualization applications
+- **[Delivery]** How to deliver rich 3D content from the cloud to in-vehicle augmented reality (AR) displays to enable AR experiences
 
 Ultimately, my research envisions a future where 3D data is no longer treated merely as a local sensing artifact, but **as a shared medium that enables collaborative perception, coordinated decision making, and immersive vehicular experiences**.
 
@@ -16,7 +16,7 @@ Ultimately, my research envisions a future where 3D data is no longer treated me
   <summary>Reconstruction</summary>
     {% assign pub = site.data.pub | where: "ID", "recap" | first %}
     <a href="{{ pub.url }}">
-        <strong><span style="color:#4281A4; font-size:1.2rem;">{{ pub.title }}</span></strong>
+        <strong><span style="color:var(--primary-color); font-size:1.2rem;">{{ pub.title }}</span></strong>
     </a>
 
     <div class="media-pair">
@@ -49,7 +49,7 @@ Ultimately, my research envisions a future where 3D data is no longer treated me
   <summary>Interpretation</summary>
     {% assign pub = site.data.pub | where: "ID", "cip" | first %}
     <a href="{{ pub.url }}">
-        <strong><span style="color:#4281A4; font-size:1.2rem;">{{ pub.title }}</span></strong>
+        <strong><span style="color:var(--primary-color); font-size:1.2rem;">{{ pub.title }}</span></strong>
     </a>
 
     <div class="media-pair">
@@ -83,7 +83,7 @@ Ultimately, my research envisions a future where 3D data is no longer treated me
     <a href="{{ pub.url }}">
         <strong><span style="color:#6a9fb5; font-size:1.2rem;">{{ pub.title }}</span></strong>
     </a> -->
-    <strong><span style="color:#4281A4; font-size:1.2rem;">3D Video Delivery to in-vehicle AR Display (under submission)</span></strong>
+    <strong><span style="color:var(--primary-color); font-size:1.2rem;">3D Video Delivery to in-vehicle AR Display (under submission)</span></strong>
     <br>
     While RECAP and CIP demonstrate how vehicles and infrastructure can collaboratively sense and interpret the traffic environment, this work extends this vision by exploring how 3D data can also serve human-facing applications like in-vehicle infotainment, navigation assistance, and spatially aware content delivery.
     <br>
