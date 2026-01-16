@@ -11,7 +11,15 @@ Before joining USC, I received my B.S. and M.S. degree in Computer Science and E
 
 ---
 
-## Experience
+<!-- ## Industry Experience
+
+> **[Google]()**, Sunnyvale, California (Jan 2026 - Present) <br>
+> Software Engineer
+
+> **[General Motors](https://www.gm.com/research)**, Warren, Michigan (Summer 2021 & Summer 2024)<br>
+> Research Intern (Mentor: Fan Bai and Chuan Li) -->
+
+## Research Experience
 
 > **[Networked Systems Lab](https://nsl.usc.edu)**, University of Southern California (Aug 2019 - Jan 2026)<br>
 > Research Assistant (Advisor: [Prof. Ramesh Govindan](https://govindan.usc.edu))
@@ -51,6 +59,7 @@ Before joining USC, I received my B.S. and M.S. degree in Computer Science and E
 ---
 
 ## Contact
+
 - Email: [christina.suyong.shin@gmail.com](mailto:christina.suyong.shin@gmail.com)<br>
-- LinkedIn: [https://www.linkedin.com/in/christina-sy-shin](https://www.linkedin.com/in/christina-sy-shin)<br>
-- Homepage: [https://christina-shin.github.io/](https://christina-shin.github.io/)
+- Homepage: [https://christina-shin.github.io/](https://christina-shin.github.io/)<br>
+- LinkedIn: [https://www.linkedin.com/in/christina-sy-shin](https://www.linkedin.com/in/christina-sy-shin)
