@@ -7,7 +7,7 @@ title: Home
 
 I am a Ph.D. candidate in [Department of Computer Science](https://www.cs.usc.edu) at [University of Southern California](http://www.usc.edu), where I am advised by [Prof. Ramesh Govindan](https://govindan.usc.edu) in the [Networked Systems Lab (NSL)](https://nsl.usc.edu). I have successfully defended my dissertation and expect to receive my Ph.D. degree in May 2026. My research interests include computer networking, mobile computing, telemetry systemns, cloud computing, autonomous & connected vehicles, AR/VR systems.
 
-Before joining USC, I received my B.S. and M.S. degrees in [Computer Science and Engineering](https://myr.ewha.ac.kr/cse/index.do) from [Ewha Womans University](https://www.ewha.ac.kr). I will be joining Google as a Software Engineer.
+Before joining USC, I received my B.S. and M.S. degrees in [Computer Science and Engineering](https://myr.ewha.ac.kr/cse/index.do) from [Ewha Womans University](https://www.ewha.ac.kr).
 
 ---
 
